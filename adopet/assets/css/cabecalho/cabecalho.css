@@ -1,0 +1,44 @@
+.cabecalho {
+    padding: 3rem;
+}
+
+.cabecalho__logo {
+    display: none;
+}
+
+.cabecalho__home {
+    padding-right: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        display: flex;
+       
+        
+    } 
+    .cabecalho__logo {
+        display: block;
+        width: 14vw;
+        margin-right: 4rem;
+    }
+    
+}
+
+@media screen and (min-width: 1010px) {
+    .cabecalho__logo {
+        width: 10vw;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho{
+        display: flex;
+        margin-right: 5rem;
+    }
+    .cabecalho__logo {
+        width: 7vw;
+        
+    }
+    
+}
